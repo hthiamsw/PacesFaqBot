@@ -38,7 +38,7 @@ def retrieve_response(entry):
      Compute the different class weight according to number of data in df
      """
     entry = entry.lower()
-    print entry
+    print(entry)
     if not (qa_Col.find_one({'Question': entry.lower()}) is None):  # HARDCODED QA
         return qa_Col.find_one({'Question': entry.lower()})['Answer']
     else:
@@ -179,14 +179,14 @@ def match_word2vec(data, entry, max_):
             except ValueError:
                 score = 0
             if math.isnan(score):
-                print "FAILED: query/question not in model dict"
+                print("FAILED: query/question not in model dict")
                 fuzz_flag = True
                 score = 0
             if score >= max_:
                 max_ = score
                 response_ = data[pair]["Answer"]
                 closest_match = qns
-    print 'COSINE SIMILARITY: ' + str(max_)
+    print('COSINE SIMILARITY: ' + str(max_))
     if max_ > 0.5:
         return random.choice(response_), max_
     elif fuzz_flag:
@@ -201,7 +201,7 @@ def match_word2vec(data, entry, max_):
                     max_ = max_ / 100.0
                     response_ = data[pair]["Answer"]
                     closest_match = qns
-        print 'FUZZY WUZZY SIMILARITY: ' + str(max_)
+        print('FUZZY WUZZY SIMILARITY: ' + str(max_))
         if max_ > 0.5:
             return random.choice(response_), 'test'
     return closest_match, max_
@@ -365,4 +365,4 @@ def update_classifier():  #
     global text_clf
     text_clf = pickle.load(clf_pickle)  # loading classifier to a local variable
     clf_pickle.close()
-    print "SUCCESS : Using new pickle file for chatbot"
+    print("SUCCESS : Using new pickle file for chatbot")
