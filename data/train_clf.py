@@ -24,9 +24,14 @@ def read_data():
                 fileName = os.path.splitext(os.path.splitext(file_name)[0])[0]  # for labeling of dataset
                 data = pd.read_json(dirpath + "/" + file_name, orient='values')
                 i = 0
-                print file_name + "'s datas added"
+                print(file_name + "'s datas added")
                 while i < len(data):
-                    if isinstance(data["Question"][i], unicode) or isinstance(data["Question"][i], str):
+                    '''
+                    William - 20180524
+                    Replaced as unicode is replaced with str and str with bytes in Python 3
+                    if isinstance(data["Question"][i], unicode) or isinstance(data["Question"][i], str)
+                    '''                
+                    if isinstance(data["Question"][i], bytes) or isinstance(data["Question"][i], str):
                         datas = pd.DataFrame(
                             {'QA': [data["Question"][i]], 'label': fileName})  # 1 ANSWER and classification DF
                         df = pd.concat([df, datas], ignore_index=True)  # appending to pandas dataframe
@@ -35,7 +40,7 @@ def read_data():
                             datas = pd.DataFrame(
                                 {'QA': [entries], 'label': fileName})  # multiple ANSWERS and classification DF
                             df = pd.concat([df, datas], ignore_index=True)
-                    if isinstance(data["Answer"][i], unicode) or isinstance(data["Answer"][i], str):
+                    if isinstance(data["Answer"][i], bytes) or isinstance(data["Answer"][i], str):
                         datas = pd.DataFrame(
                             {'QA': [data["Answer"][i]], 'label': fileName})  # 1 ANSWER and classification DF
                         df = pd.concat([df, datas], ignore_index=True)  # appending to pandas dataframe
@@ -46,7 +51,7 @@ def read_data():
                             df = pd.concat([df, datas], ignore_index=True)  # appending to pandas dataframe
                     i += 1
             elif file_name.endswith('.csv'):
-                print file_name + "'s datas added"
+                print(file_name + "'s datas added")
                 with open('./data/corpus/' + file_name, 'r') as csvfile:
                     data = csvfile.readlines()
                     data = data[0].split(',')
@@ -54,6 +59,11 @@ def read_data():
                 fileName = os.path.splitext(os.path.splitext(file_name)[0])[0]  # for labeling of dataset
                 i = 0
                 while i < len(data):
+                    datas = pd.DataFrame({'QA': [data[i]],
+                                          'label': [fileName]})  # data and classification DF
+                    df = pd.concat([df, datas], ignore_index=True)  # appending to pandas dataframe
+                    i += 1;
+                    '''
                     if i == len(data) - 1:
                         datas = pd.DataFrame({'QA': [data[i].decode('utf-8', 'ignore')],
                                               'label': [fileName]})  # data and classification DF
@@ -64,6 +74,7 @@ def read_data():
                                               'label': [fileName]})  # data and classification DF
                         df = pd.concat([df, datas], ignore_index=True)  # appending to pandas dataframe
                         i += 1
+                    '''
         return df
 
 
@@ -76,7 +87,7 @@ def compute_class_weight(df):
     class_dict = {}
     for labels, weight in zip(np.unique(df.label), weight):
         class_dict[labels] = weight
-    print class_dict
+    print(class_dict)
     return class_dict
 
 
@@ -102,7 +113,7 @@ def fit_predict(text_clf, df):
     """
     _clf = text_clf.fit(df['QA'], df['label'])  # Use when deployment
     cross_predict = cross_val_predict(text_clf, df.QA, df.label, cv=15)
-    print "Accuracy :" + str(metrics.accuracy_score(df.label, cross_predict))  # accuracy
+    print("Accuracy :" + str(metrics.accuracy_score(df.label, cross_predict)))  # accuracy
     return _clf
 
 
@@ -114,19 +125,7 @@ def write_pickle(clf):
     save_clf = open("text_clf.pickle", "wb")  # Saving the classifier to a pickle file
     pickle.dump(clf, save_clf)
     save_clf.close()
-    print "Wrote to pickle file successfully."
-
-
-if __name__ == "__main__":
-    """ Return none
-
-    Invoking the training of classifier manually
-    """
-    df = read_data()
-    class_weight = compute_class_weight(df)
-    text_clf = create_pipeline(class_weight)
-    text_clf = fit_predict(text_clf, df)
-    write_pickle(text_clf)
+    print("Wrote to pickle file successfully.")
 
 
 def retrain_clf(question, classification):
@@ -182,4 +181,16 @@ def retrain_partial_clf(classification, question, answer, alternative, quality):
     save_clf = open("text_clf.pickle", "wb")  # Saving the classifier to a pickle file
     pickle.dump(text_clf, save_clf)
     save_clf.close()
-    print "SUCCESS : Wrote to pickle file"
+    print("SUCCESS : Wrote to pickle file")
+    
+
+if __name__ == "__main__":
+    """ Return none
+
+    Invoking the training of classifier manually
+    """
+    df = read_data()
+    class_weight = compute_class_weight(df)
+    text_clf = create_pipeline(class_weight)
+    text_clf = fit_predict(text_clf, df)
+    write_pickle(text_clf)
