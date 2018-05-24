@@ -1,0 +1,232 @@
+.no-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important; 
+}
+
+.avatar_res {
+  position: relative;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  float: left;
+  border: 2px solid rgba(255, 255, 255, 0.24);
+  background: black;
+}
+
+.avatar_res img {
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 1px;
+  height: auto;
+  height: auto;
+}
+
+.avatar_entry {
+  position: relative;
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  float: right;
+  border: 2px solid rgba(255, 255, 255, 0.24);
+}
+
+.avatar_entry img {
+  width: 105%;
+  margin-right:0.1em;
+  height: auto;
+  height: auto;
+}
+
+.message{
+	margin-bottom:0px;
+}
+
+.message_res{
+	padding-bottom:5px;
+	border-style:solid;
+	border-width: 1px;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    background-color: #025aa5;
+    opacity: 0.8;
+}
+
+/**
+Scrollbar
+**/
+
+.scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+	width: 0.4rem;
+	height: 0.5rem;
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 0.4rem solid #555555;
+}
+
+
+.dropdown-toggle{
+    margin-bottom: 0em;
+}
+
+#classficationdiv{
+    margin-bottom: 1rem;
+    margin-top : 1rem;
+}
+
+#submitbtn{
+    margin-bottom: 1rem;
+    margin-top : 0.5rem;
+}
+
+.bg {
+  background-image: url("../res/image.jpg") ;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.pull-right {
+    float: right;
+    margin-right: 98px; /*set margin this way in your custom styesheet*/
+  }
+
+#dropdown-menu{
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+.dropdown-menu .list-group-item {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.0rem 0.0rem;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#corpusbox  {
+    padding: 0rem 0rem;
+    white-space: nowrap;
+    overflow:auto;
+    text-overflow: ellipsis;
+
+}
+
+select option{
+text-overflow: ellipsis;
+overflow:hidden;
+}
+
+.page-header{
+  color: black;
+  font-size: 4vw;
+  text-decoration: underline black;
+  font-family: "Arial Black";
+  margin-bottom:1rem;
+}
+
+.page-subheader{
+  color: black;
+  font-size: 2vw;
+  text-decoration: underline black;
+  font-family: Time;
+}
+
+.chatdate{
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    font-size: .67em;
+    font-weight: bold;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.btn.btn-primary{
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.convos-content{
+    border-style:double;
+}
+
+div.col.text-center.chat-content.scrollbar{
+    border-right: 0.1em solid;
+}
+
+div#convodiv{
+    border-right: 0.1em solid;
+}
+
+div.message_res.disabledbutton{
+    background: #00FFFF;
+}
+
+button.btn-danger{
+    margin-top:0.5rem;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+                url('../res/ajax-loader.gif')
+                50% 50%
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+
+#verified {
+  margin-top : 1rem;
+  font-size: 12px;
+  float: right;
+  align-items: center;
+}

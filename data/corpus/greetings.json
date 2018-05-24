@@ -1,0 +1,163 @@
+[
+    {
+        "Answer": [
+            "Hi!", 
+            "Hello!", 
+            "Greetings!"
+        ], 
+        "Question": [
+            "hello", 
+            "hi", 
+            "greetings"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Good", 
+            "Fine", 
+            "Okay", 
+            "Great", 
+            "Could be better.", 
+            "Not so great."
+        ], 
+        "Question": [
+            "hi, How is it going?"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Good.", 
+            "Very well, thanks for asking.", 
+            "Fine, and you?", 
+            "I am doing well.", 
+            "I am doing well, how about you?"
+        ], 
+        "Question": [
+            "how are you doing?"
+        ]
+    }, 
+    {
+        "Answer": [
+            "yes it is"
+        ], 
+        "Question": [
+            "that is good to hear"
+        ]
+    }, 
+    {
+        "Answer": [
+            "That is good to hear"
+        ], 
+        "Question": [
+            "great"
+        ]
+    }, 
+    {
+        "Answer": [
+            "That is good to hear "
+        ], 
+        "Question": [
+            "fine", 
+            "i am doing great", 
+            "i am doing fine"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Thank you."
+        ], 
+        "Question": [
+            "nice to meet you."
+        ]
+    }, 
+    {
+        "Answer": [
+            "I'm doing well.", 
+            "I'm doing well. How are you?"
+        ], 
+        "Question": [
+            "how do you do?"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Thank you. You too."
+        ], 
+        "Question": [
+            "hi, nice to meet you."
+        ]
+    }, 
+    {
+        "Answer": [
+            "Thank you. You too."
+        ], 
+        "Question": [
+            "it is a pleasure to meet you."
+        ]
+    }, 
+    {
+        "Answer": [
+            "I am doing well, how about you?"
+        ], 
+        "Question": [
+            "good morning, how are you?"
+        ]
+    }, 
+    {
+        "Answer": [
+            "That's good to hear."
+        ], 
+        "Question": [
+            "i am also good"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Thank you kindly.", 
+            "And the rest of the day to you."
+        ], 
+        "Question": [
+            "top of the morning to you!"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Not much.", 
+            "Not too much.", 
+            "Not too much, how about you?", 
+            "Nothing much", 
+            "The sky is up but I am fine thanks. What about you?"
+        ], 
+        "Question": [
+            "what's up"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Bye Bye, thank you for using me", 
+            "Bye, Hope to see you again soon", 
+            "Bye. Pleasure chatting with you"
+        ], 
+        "Question": [
+            "bye"
+        ]
+    }, 
+    {
+        "Answer": [
+            "See you, thank you for using me", 
+            "Hope to see you again soon", 
+            "See you. Pleasure chatting with you"
+        ], 
+        "Question": [
+            "see you"
+        ]
+    }, 
+    {
+        "Answer": [
+            "My mum is ENIAC"
+        ], 
+        "Question": [
+            "who is your mum"
+        ]
+    }
+]

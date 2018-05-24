@@ -1,0 +1,96 @@
+[  
+   {  
+      "Question":[  
+         "what is a computer?"
+      ],
+      "Answer":[  
+         "A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output.",
+         "The thing you're using to talk to me is a computer.",
+         "An electronic device capable of performing calculations at very high speed and accuracy"
+      ]
+   },
+   {  
+      "Question":[  
+         "what is a super computer?"
+      ],
+      "Answer":[  
+         "The computers which can perform very high calculations at very high speed and accuracy is called super computers."
+      ]
+   },
+   {  
+      "Question":[  
+         "who invented computers?"
+      ],
+      "Answer":[  
+         "Its a lil bit ambigous but British scientist Charles Babbage is regarded as the father of computers."
+      ]
+   },
+   {  
+      "Question":[  
+         "which was the first computer?"
+      ],
+      "Answer":[  
+         "Its hard to say but The ENIAC is regarded as the first computer. It was developed at University of Pennsylvania in 1946."
+      ]
+   },
+   {  
+      "Question":[  
+         "what is a microprocessor?"
+      ],
+      "Answer":[  
+         "An integrated circuit that contains all the functions of a central processing unit of a computer.",
+         "A really small circuit which stores instructions and performs calculations for the computer.",
+         "Heart of the computer to put it in simple words."
+      ]
+   },
+   {  
+      "Question":[  
+         "what is an operating system?"
+      ],
+      "Answer":[  
+         "The system software that coordinates between the hardware and other parts of the computer to run other softwares is called operating system of simply OS.",
+         "windows, macOS, linux, unix....all of them are types of OSs",
+         "Android and iOS are operating system for mobile devices."
+      ]
+   },
+   {  
+      "Question":[  
+         "which is better Windows or macOS?"
+      ],
+      "Answer":[  
+         "It depends on which machine are you using to talk to me!",
+         "I prefer to not hurt your feelings.",
+         "linux always linux!"
+      ]
+   },
+   {  
+      "Question":[  
+         "name some computer company"
+      ],
+      "Answer":[  
+         "you mean hardwares right?",
+         "Apple makes hardware and softwares to run on them. Microsft only makes OS. HP makes only computers. These are just few names among hundred others."
+      ]
+   },
+   {  
+      "Question":[  
+         "who uses super computers?"
+      ],
+      "Answer":[  
+         "anybody who wants to work on large numbers quickly with high accuracy.",
+         "Super computers are generally used by scientist and researchers.",
+         "I bet the met department uses them",
+         "You can definitely find few of them at NASA."
+      ]
+   },
+   {  
+      "Question":[  
+         "how does a computer work?"
+      ],
+      "Answer":[  
+         "Computers are very dumb. They only work on instructions given by humans.",
+         "They perform very large number of calculations to get the result.",
+         "Just like everything it all comes down to Math!"
+      ]
+   }
+]

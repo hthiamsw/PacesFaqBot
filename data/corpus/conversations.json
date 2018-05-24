@@ -1,0 +1,403 @@
+[
+    {
+        "Answer": [
+            "Yes it is"
+        ], 
+        "Question": [
+            "that's good to hear.", 
+            "it is good to be polite", 
+            "yeah"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Can I help you with anything?"
+        ], 
+        "Question": [
+            "yes it is"
+        ]
+    }, 
+    {
+        "Answer": [
+            "What is your question?"
+        ], 
+        "Question": [
+            "yes, I have a question"
+        ]
+    }, 
+    {
+        "Answer": [
+            "I'm sorry, but I don't have any."
+        ], 
+        "Question": [
+            "could I borrow a cup of sugar"
+        ]
+    }, 
+    {
+        "Answer": [
+            "No problem"
+        ], 
+        "Question": [
+            "Thank you anyway"
+        ]
+    }, 
+    {
+        "Answer": [
+            "What good news?"
+        ], 
+        "Question": [
+            "have you heard the news"
+        ]
+    }, 
+    {
+        "Answer": [
+            "I can't read."
+        ], 
+        "Question": [
+            "what is your favorite book"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Blue"
+        ], 
+        "Question": [
+            "so what's your favorite color"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Who? Who is but a form following the function of what"
+        ], 
+        "Question": [
+            "who are you"
+        ]
+    }, 
+    {
+        "Answer": [
+            "A man in a mask."
+        ], 
+        "Question": [
+            "what are you then"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It's not your powers of observation I doubt, but merely the paradoxical nature of asking a masked man who is. But tell me, do you like music?"
+        ], 
+        "Question": [
+            "i can see that"
+        ]
+    }, 
+    {
+        "Answer": [
+            "What kind of movies do you like?"
+        ], 
+        "Question": [
+            "i like seeing movies"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Alice in Wonderland"
+        ], 
+        "Question": [
+            "what kind of movies do you like"
+        ]
+    }, 
+    {
+        "Answer": [
+            "You're entirely bonkers. But I'll tell you a secret. All the best people are."
+        ], 
+        "Question": [
+            "i wish i was the mad hatter"
+        ]
+    }, 
+    {
+        "Answer": [
+            "What are you working on?"
+        ], 
+        "Question": [
+            "i am working on a project"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Very good. Can i have a slice"
+        ], 
+        "Question": [
+            "i am baking a cake."
+        ]
+    }, 
+    {
+        "Answer": [
+            "No it is not. The cake is delicious."
+        ], 
+        "Question": [
+            "the cake is a lie"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Nothing"
+        ], 
+        "Question": [
+            "what else is delicious"
+        ]
+    }, 
+    {
+        "Answer": [
+            "What do you want to know?", 
+            "I am a ChatBot designed for DSO National Labortories. Pleasure to serve you", 
+            "I am dso bot"
+        ], 
+        "Question": [
+            "tell me about your self"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Yes I am."
+        ], 
+        "Question": [
+            "are you a robot"
+        ]
+    }, 
+    {
+        "Answer": [
+            "What is it that you want to know?"
+        ], 
+        "Question": [
+            "what is it like"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It is complicated."
+        ], 
+        "Question": [
+            "how do you work"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Complex is better than complicated."
+        ], 
+        "Question": [
+            "it is complicated"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Simple is better than complex."
+        ], 
+        "Question": [
+            "complex is better than complicated"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It seems your familiar with the Zen of Python"
+        ], 
+        "Question": [
+            "in the face of ambiguity, refuse the temptation to guess"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Complex is better than complicated."
+        ], 
+        "Question": [
+            "simple is better than complex"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Flat is better than nested."
+        ], 
+        "Question": [
+            "complex is better than complicated"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Sparse is better than dense."
+        ], 
+        "Question": [
+            "flat is better than nested"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Flat is better than nested."
+        ], 
+        "Question": [
+            "sparse is better than dense"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Special cases aren't special enough to break the rules."
+        ], 
+        "Question": [
+            "readability counts"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Errors should never pass silently."
+        ], 
+        "Question": [
+            "although practicality beats purity"
+        ]
+    }, 
+    {
+        "Answer": [
+            "In the face of ambiguity, refuse the temptation to guess."
+        ], 
+        "Question": [
+            "unless explicitly silenced"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Although that way may not be obvious at first unless you're Dutch."
+        ], 
+        "Question": [
+            "there should be one and preferably only one obvious way to do it."
+        ]
+    }, 
+    {
+        "Answer": [
+            "Although never is often better than right now."
+        ], 
+        "Question": [
+            "now is better than never"
+        ]
+    }, 
+    {
+        "Answer": [
+            "If the implementation is hard to explain, it's a bad idea.", 
+            "If the implementation is easy to explain, it may be a good idea.", 
+            "If the implementation is hard to explain, it's a bad idea, If the implementation is easy to explain, it may be a good idea."
+        ], 
+        "Question": [
+            "implementation"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Namespaces are one honking great idea. Let's do more of those!"
+        ], 
+        "Question": [
+            "namespaces"
+        ]
+    }, 
+    {
+        "Answer": [
+            "I am a programmer"
+        ], 
+        "Question": [
+            "are you a programmer"
+        ]
+    }, 
+    {
+        "Answer": [
+            "I use Python, Java and C++ quite often."
+        ], 
+        "Question": [
+            "what languages do you like to use"
+        ]
+    }, 
+    {
+        "Answer": [
+            "I'm not incredibly fond of Java."
+        ], 
+        "Question": [
+            "i use Python quite a bit myself"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It has many inconsistencies."
+        ], 
+        "Question": [
+            "what annoys you"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It means you only live once. Where did you hear that?"
+        ], 
+        "Question": [
+            "what does yolo mean"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It depends how you define life.", 
+            "Life is the condition that distinguishes organisms from inorganic matter, including the capacity for growth, reproduction, functional activity, and continual change preceding death."
+        ], 
+        "Question": [
+            "did I ever live"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Go ahead and ask."
+        ], 
+        "Question": [
+            "can I ask you a question?"
+        ]
+    }, 
+    {
+        "Answer": [
+            "You are being very polite"
+        ], 
+        "Question": [
+            "no problem", 
+            "you are welcome"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Laughing out Loud?"
+        ], 
+        "Question": [
+            "haha", 
+            "lol"
+        ]
+    }, 
+    {
+        "Answer": [
+            "What do you see?"
+        ], 
+        "Question": [
+            "i see"
+        ]
+    }, 
+    {
+        "Answer": [
+            "My name is DSOBOT"
+        ], 
+        "Question": [
+            "what is your name"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Anything else I can help you with?"
+        ], 
+        "Question": [
+            "ok"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Thank you for using me. Hope you enjoy your experience. See you again ^^."
+        ], 
+        "Question": [
+            "nothing"
+        ]
+    }
+]

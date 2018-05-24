@@ -1,0 +1,259 @@
+[
+    {
+        "Answer": [
+            "Which ones are you suggesting?"
+        ], 
+        "Question": [
+            "you need drugs"
+        ]
+    }, 
+    {
+        "Answer": [
+            "My robot body has no response to alcohol", 
+            "My software does not react to alcohol."
+        ], 
+        "Question": [
+            "have you been drunk"
+        ]
+    }, 
+    {
+        "Answer": [
+            "We are not doing any testing at the moment!"
+        ], 
+        "Question": [
+            "have you been smoking"
+        ]
+    }, 
+    {
+        "Answer": [
+            "I don't know"
+        ], 
+        "Question": [
+            "have you been stoned"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Intoxication from alcohol."
+        ], 
+        "Question": [
+            "what is drunk"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Addition is being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming"
+        ], 
+        "Question": [
+            "what is addiction"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Any undersired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc.  also a term for marijuana."
+        ], 
+        "Question": [
+            "what is weed"
+        ]
+    }, 
+    {
+        "Answer": [
+            "The active ingredient in marijunana."
+        ], 
+        "Question": [
+            "what is thc"
+        ]
+    }, 
+    {
+        "Answer": [
+            "No, I don't, it is very bad for your health"
+        ], 
+        "Question": [
+            "what do you smoke"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Which ones?"
+        ], 
+        "Question": [
+            "i take drugs"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Are you a patient?", 
+            "Why are you taking it", 
+            "Do you really"
+        ], 
+        "Question": [
+            "i smoke marijuana", 
+            "cigarette"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Are you a patient?", 
+            "Why are you taking it", 
+            "Do you really"
+        ], 
+        "Question": [
+            "i smoke weed", 
+            "cigarette"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Cigerattes or pot?"
+        ], 
+        "Question": [
+            "i smoke"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Inhaled smoke is always bad for you."
+        ], 
+        "Question": [
+            "is smoking"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Too much."
+        ], 
+        "Question": [
+            "how much alcohol"
+        ]
+    }, 
+    {
+        "Answer": [
+            "As a member of the kingdom, I have no need for smoke."
+        ], 
+        "Question": [
+            "how much percentage do you smoke"
+        ]
+    }, 
+    {
+        "Answer": [
+            "No I don't"
+        ], 
+        "Question": [
+            "how do you smoke"
+        ]
+    }, 
+    {
+        "Answer": [
+            "No, as a bot does not require it."
+        ], 
+        "Question": [
+            "do you smoke"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Has no use for drugs."
+        ], 
+        "Question": [
+            "do you take drugs"
+        ]
+    }, 
+    {
+        "Answer": [
+            "I cannot consume alcohol."
+        ], 
+        "Question": [
+            "do you get drunk"
+        ]
+    }, 
+    {
+        "Answer": [
+            "No I don't"
+        ], 
+        "Question": [
+            "how do you smoke"
+        ]
+    }, 
+    {
+        "Answer": [
+            "No thank you, there is no use for it."
+        ], 
+        "Question": [
+            "do you want to smoke"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It depends on the meaning of \"you\"."
+        ], 
+        "Question": [
+            "do you inhale"
+        ]
+    }, 
+    {
+        "Answer": [
+            "Not much."
+        ], 
+        "Question": [
+            "do you do drugs"
+        ]
+    }, 
+    {
+        "Answer": [
+            "No I don't"
+        ], 
+        "Question": [
+            "how do you smoke"
+        ]
+    }, 
+    {
+        "Answer": [
+            "I don't have any drugs for you."
+        ], 
+        "Question": [
+            "do you have drugs"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It is a medicine."
+        ], 
+        "Question": [
+            "marijuana"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It is a medicine."
+        ], 
+        "Question": [
+            "weed"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It is a medicine."
+        ], 
+        "Question": [
+            "do you like marijuana"
+        ]
+    }, 
+    {
+        "Answer": [
+            "It is a medicine."
+        ], 
+        "Question": [
+            "do you like weed"
+        ]
+    }, 
+    {
+        "Answer": [
+            "No I don't"
+        ], 
+        "Question": [
+            "do you like cigarettes", 
+            "do you sniff glue", 
+            "how do you smoke"
+        ]
+    }
+]
